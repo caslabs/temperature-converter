@@ -1,0 +1,20 @@
+table, td, th {
+    border: 1px solid black;
+    width: 40%
+}
+
+
+
+table {
+    float:right;
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align:center;
+}​
+
+
+fieldset {
+    float:left;
+    margin:50px;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Temperature</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  </head>
+  <body>
+    
+      <table id="TempTable" name="F to C">
+	<caption>Temperature List</caption>
+	<tr>
+	 <th>Fahrenheit</th>
+	<th>Celsius</th>
+       </tr>
+      </table>
+
+      <form id="form">
+	<fieldset>
+	  <legend>Generate Table:</legend>
+	Initial Fahrenheit Value:<br>
+	<input type="text" id="InitValue" value="20"><br>
+	Maximum Fahrenheit Value:<br>
+	<input type="text" id="MaxValue" value="120"><br>
+	Increment Value:<br>
+	<input type="text" id="IncrementValue" value="5"><br>
+	<input type="button" onclick="appendData()" value="Create Table">
+	</fieldset>
+      </form>
+
+
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
