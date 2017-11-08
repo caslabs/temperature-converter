@@ -6,7 +6,7 @@ table, td, th {
 table {
     float:right;
     margin-right: 300px;
-    margin-left: 300px;
+    margin-left: 200px;
     text-align:center;
 }​
 
@@ -20,7 +20,7 @@ th {
 }
 
 .formInput {
-    margin: 10px;
+	 margin: 10px;
 }
 
 #tableButton {
@@ -30,6 +30,10 @@ th {
 #inputStatus {
     font-size:13px;
     color: red;
+}
+
+fieldset {
+	padding-right:10px;
 }
 
 caption {
