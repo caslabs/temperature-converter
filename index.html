@@ -16,18 +16,21 @@
       <form id="form">
 	<fieldset>
 	  <legend>Generate Table:</legend>
-	  Initial Fahrenheit Value:<br>
-	  <input type="text" id="InitValue" class="formInput"  value="20"><br>
+	  <div class="range">
+	    <label for="InitValue">Initial Fahrenheit Value:</label>
+	    <input type="text" id="InitValue" class="formInput"  value="20"><br>
+	    
+	    <label for="MaxValue">Maximum Fahrenheit Value:</label>
+	    <input type="text" id="MaxValue" class="formInput" value="120"><br>
+
+	    <label for="IncrementValue">Increment Value</label>
+	    <input type="text" id="IncrementValue" class="formInput" value="5">
+	    </div>
 	  
-	  Maximum Fahrenheit Value:<br>
-	  <input type="text" id="MaxValue" class="formInput" value="120"><br>
-	  
-	  Increment Value:<br>
-	  <input type="text" id="IncrementValue" class="formInput" value="5"><br>
 	  
 	  <p id="inputStatus"></p>
 	  <input type="button" onclick="appendData()" id="tableButton" value="Create Table">
-	</fieldset
+	</fieldset>
       </form>
   </body>
   <script type="text/javascript" src="script.js"></script>
