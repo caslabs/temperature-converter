@@ -3,8 +3,6 @@ table, td, th {
     width: 40%
 }
 
-
-
 table {
     float:right;
     margin-right: 300px;
@@ -12,9 +10,29 @@ table {
     text-align:center;
 }​
 
-
 fieldset {
     float:left;
     margin:50px;
 }
 
+th {
+    padding-bottom:35px;
+}
+
+.formInput {
+    margin: 10px;
+}
+
+#tableButton {
+    margin-top:10px;
+}
+
+#inputStatus {
+    font-size:13px;
+    color: red;
+}
+
+caption {
+    font-size:25px;
+    margin-bottom:10px;
+}

@@ -5,29 +5,30 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
   </head>
   <body>
-    
       <table id="TempTable" name="F to C">
-	<caption>Temperature List</caption>
+	<caption>Fahrenheit to Celius</caption>
 	<tr>
-	 <th>Fahrenheit</th>
-	<th>Celsius</th>
+	 <th>Fahrenheit ( °F )</th>
+	<th>Celsius ( °C )</th>
        </tr>
       </table>
 
       <form id="form">
 	<fieldset>
 	  <legend>Generate Table:</legend>
-	Initial Fahrenheit Value:<br>
-	<input type="text" id="InitValue" value="20"><br>
-	Maximum Fahrenheit Value:<br>
-	<input type="text" id="MaxValue" value="120"><br>
-	Increment Value:<br>
-	<input type="text" id="IncrementValue" value="5"><br>
-	<input type="button" onclick="appendData()" value="Create Table">
-	</fieldset>
+	  Initial Fahrenheit Value:<br>
+	  <input type="text" id="InitValue" class="formInput"  value="20"><br>
+	  
+	  Maximum Fahrenheit Value:<br>
+	  <input type="text" id="MaxValue" class="formInput" value="120"><br>
+	  
+	  Increment Value:<br>
+	  <input type="text" id="IncrementValue" class="formInput" value="5"><br>
+	  
+	  <p id="inputStatus"></p>
+	  <input type="button" onclick="appendData()" id="tableButton" value="Create Table">
+	</fieldset
       </form>
-
-
   </body>
   <script type="text/javascript" src="script.js"></script>
 </html>
